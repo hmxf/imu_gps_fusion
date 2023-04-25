@@ -2,7 +2,7 @@
 
 ## Install dependicies
 
-    sudo apt install ros-noetic-catkin-virtualenv ros-noetic-gps-common ros-noetic-gps-goal ros-noetic-navigation ros-noetic-move-base libgoogle-glog-dev hugin-tools enblend
+    sudo apt install ros-noetic-catkin-virtualenv ros-noetic-gps-common ros-noetic-navigation ros-noetic-move-base libgoogle-glog-dev hugin-tools enblend glibc-doc
 
 # Fetch Code
 
