@@ -1,0 +1,9 @@
+build/
+*.pyc
+*.pyo
+*.swp
+build_isolated/
+devel_isolated/
+.vscode
+.idea
+.github
