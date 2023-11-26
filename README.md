@@ -11,6 +11,13 @@ sudo apt install ros-noetic-catkin-virtualenv ros-noetic-gps-common ros-noetic-n
 
 # Build sepecific version of `python3-docutils` package
 
+Make a confirmation that your `python3-docutils` is newer than `0.16.x` since APT will install such an old version under Ubuntu 20.04 by default, which is too old to use for many new packages. Verify by:
+
+```bash
+apt search python3-docutils
+```
+Update it by removing old packages first and then install new ones:
+
 ```bash
 sudo apt remove python3-docutils docutils-common docutils-doc
 mkdir ~/docutils_src && cd ~/docutils_src
