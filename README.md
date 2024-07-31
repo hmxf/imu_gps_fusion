@@ -9,7 +9,9 @@ sudo apt install libgoogle-glog-dev hugin-tools enblend glibc-doc
 sudo apt install ros-noetic-catkin-virtualenv ros-noetic-gps-common ros-noetic-navigation ros-noetic-move-base
 ```
 
-# Build sepecific version of `python3-docutils` package
+# Confirm sepecific version of `python3-docutils` package
+
+**Note: This is not need since APT sources updated their `python3-docutils` to `0.16`**
 
 Make a confirmation that your `python3-docutils` is newer than `0.16.x` since APT will install such an old version under Ubuntu 20.04 by default, which is too old to use for many new packages. Verify by:
 
@@ -35,10 +37,11 @@ mkdir ~/catkin_ws && cd ~/catkin_ws
 git clone --recurse-submodules https://github.com/hmxf/imu_gps_fusion src
 ```
 
-## Bind USB devices
+## Bind USB devices and update CMakeLists.txt
 
 ```bash
 ./scripts/bind_usb.sh
+./scripts/update_CMakeLists.txt.sh
 ```
 
 ## Build drivers and packages
