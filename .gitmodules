@@ -1,6 +1,3 @@
-[submodule "nmea_navsat_driver"]
-	path = nmea_navsat_driver
-	url = https://github.com/hmxf/nmea_navsat_driver
 [submodule "ros_imu_wit"]
 	path = ros_imu_wit
 	url = https://github.com/hmxf/ros_imu_wit
