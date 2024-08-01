@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 echo "Start copy imu_usb.rules and gps_usb.rules to /etc/udev/rules.d..."
 sudo cp scripts/imu_usb.rules /etc/udev/rules.d
 sudo cp scripts/gps_usb.rules /etc/udev/rules.d
